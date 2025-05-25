@@ -8,7 +8,7 @@ namespace MCP_SQL
     [McpServerToolType]
     public sealed class SQLTools
     {
-        [McpServerTool, Description("Get weather forecast for a City.")]
+        [McpServerTool, Description("Get all data from a SQL Server DB.")]
         public static async Task<string> ExecuteSql(
             [Description("SQL query")] string sql,
             [Description("connectionString of the SQL server")] string _connectionString
